@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Editor em tempo real</title>
+    <link rel="stylesheet" href="css/prism.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Preview do code -->
+    <iframe id="preview"></iframe>
+
+    <!-- Campos do editor-->
+    <div class="editor">
+      <textarea id="html" class="language-html">
+<h1>Ola mundo! Bem vindos ao Editor em tempo real</h1>
+    </textarea
+      >
+
+      <textarea id="css" class="language-css">
+body {
+  align-items: center;
+  background: #01579b;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-size: 72px;
+}
+
+    </textarea
+      >
+
+      <textarea id="js" class="language-js"></textarea>
+    </div>
+
+    <script src="js/prism.js"></script>
+    <script src="js/prism-highlight.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
